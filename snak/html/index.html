@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clima hoje</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Ubuntu:ital,wght@0,400;1,300;1,400&display=swap" rel="stylesheet">  
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.12/css/weather-icons.min.css" integrity="sha512-r/Gan7PMSRovDus++vDS2Ayutc/cSdl268u047n4z+k7GYuR7Hiw71FsT3QQxdKJBVHYttOJ6IGLnlM9IoMToQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="index.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="form">
+            <h3>Confira o clima de uma cidade</h3>
+            <div class="form-input-container">
+                <input type="text" placeholder="Digite o nome da cidade" id="city-input"/>
+                <button id="search">
+                    <i class="fa-map-marker-alt"></i>
+                </button>
+
+            </div>
+        </div>
+         
+    
+
+        <div id="weather-data">
+            <h2>
+                <i class="fa-solid fa-map-marker-alt"></i>
+                <span id="city">Maceió</span>
+                <img src="https://countryflagsapi.com/png/br" alt="" id="country" />
+            </h2>
+            <p id="temperature"><span>38</span>&deg;C</p>
+        </div>
+        <div id="descripition-container">
+            <p class="descripition">Nublado</p>
+            <img src="http://openweathermap.org/img/wn/01d.png" alt="Condições do tempo" class="weather-icon" />
+        </div>
+        <div id="details-container">
+            <p id="umidity">
+                <i class="fa-solid fa-droplet"></i>
+                <span>48%</span>
+            </p>
+            <p id="wind">
+                
+                <span><i class='fa-solid fa-wind'></i>3km/h</span>
+            </p>
+        </div>
+    </div>
+</body>
+</html>

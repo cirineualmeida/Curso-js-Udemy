@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+        label {
+            display: block;
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+<body>
+    <form action="#" method="get" target="_blank">
+        <p>criando formulario</p>
+        <p>
+            <label for="nome"> Nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+            
+        </p>
+
+        <p>
+            <label for="dev">Sou um Dev:</label>
+            <input type="checkbox" id="dev" name="dev"
+             value="sim" checked>
+            
+            <label for="dev2">Sou um Dev:</label>
+            <input type="checkbox" id="dev2" name="dev2"
+             value="sim" checked>
+
+            <label for="feminino">Sou um Dev:</label>
+            <input type="checkbox" id="feminino" name="feminino"
+             value="feminino" checked>
+            
+            
+        </p>
+
+        <p>
+            Genero:
+            <label for="feminino">feminino:</label>
+            <input type="radio" id="dev3" name="genero"
+             value="feminino" checked>
+            
+            <label for="masculino">masculino:</label>
+            <input type="radio" id="masculino" name="genero"
+             value="masculino" checked>
+            
+            <label for="outro">outro:</label>
+            <input type="radio" id="outro" name="genero"
+             value="outro" checked>
+            
+        </p>
+
+        <p>
+            <label for="date"> Data:</label>
+            <input type="date" id="date" name="date" placeholder="" required>
+            
+        </p>
+
+        <p>
+            <label for="datetime-local">Data l:</label>
+            <input type="datetime-local" id="datetime-local" name="datetime-local"  required>
+            
+        </p>
+
+        <p>
+            <label for="cor">Cor preferida:</label>
+            <input type="color" id="cor" name="cor" value="#FF0000"  required>
+            
+        </p>
+
+        <p>
+            <label for="email">Seu email:</label>
+            <input type="email" id="email" name="email" placeholder="Seu nome" required>
+            
+        </p>
+
+        <p>
+            <label for="number"> Numero:</label>
+            <input type="number" id="number" name="number" min="5" max="100" step="5" required>
+            
+        </p>
+
+        <p>
+            <label for="password"> Senha:</label>
+            <input type="password" id="password" name="password" placeholder="Seu nome" required>
+            
+        </p>
+
+        <p>
+            <label for="nome"> Nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+            
+        </p>
+        <p>
+            <label for="range">range:</label>
+            <input type="range" id="range" name="range" min="0" max="50" step="1" required>
+            
+            <datalist>
+                <option value=""></option>
+            </datalist>
+        </p>
+
+        <p>
+            <button type="reset">reset</button>
+            <button type="submit">Enviar</button>
+        </p>
+    </form>
+</body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        table td, table th {
+            border: 1px solid wheat;
+            padding: 5px;
+            text-align: left;
+        }
+        caption {
+            caption-side: bottom;
+            text-align: right;
+            font-style: italic;
+            font-size: 12px;
+        }
+        tfoot td, table th {
+            background: wheat;
+        }
+         tfoot td {
+                font-style: italic;
+        }
+        .responsive {
+            max-width: 100%;
+            overflow: auto;
+        }/*deixar a tabela responsiva para celulares*/
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet</p>
+    <div class="responsive">
+    <table>
+        <caption>descrição da tabela</caption>
+        <thead>
+            <tr>
+                <th>titulo 1</th>
+                <th>titulo 2</th>
+                <th>titulo 3</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>corpo 1</td>
+                <td>corpo 2</td>
+                <td>corpo 3</td>
+            </tr>
+
+            <tr>
+                <td>corpo 1</td>
+                <td>corpo 2</td>
+                <td>corpo 3</td>
+            </tr>
+
+            <tr>
+                <td>corpo 1</td>
+                <td>corpo 2</td>
+                <td>corpo 3</td>
+            </tr>
+        </tbody>
+        <tfoot>
+
+            <tr>
+                <td>foot 1</td>
+                <td>foot 2</td>
+                <td>foot 3</td>
+            </tr>
+        </tfoot>
+    </table>
+</div>
+</body>
+</html>
